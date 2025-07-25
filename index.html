@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
+    </style>
+    <link rel="preload" href="styles/index.css" as="style">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/romalize.css">
+    <title>FinAgro</title>
+    <link rel="icon" href="img/logo.jpg" type="image/png">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="header-container">
+        <!-- Logo que lleva al inicio -->
+        <a href="/" class="logo-link">
+            <img src="img/logo.jpg" alt="FinAgro" class="logo">
+        </a>
+        
+        <!-- Menú principal -->
+        <nav class="main-nav">
+            <div class="nav-dropdown">
+                <button class="nav-toggle">Menú ▼</button>
+                <div class="dropdown-content">
+                    <a href="/">Inicio</a>
+                    <a href="/services.html">Servicios</a>
+                    <a href="/questions">Preguntas Frecuentes</a>
+                    <a href="/contact">Contacto</a>
+                </div>
+            </div>
+            
+            <!-- Versión desktop -->
+            <div class="full-menu">
+                <a href="/">Inicio</a>
+                <a href="/services.html">Servicios</a>
+                <a href="/question.html">Preguntas Frecuentes</a>
+            </div>
+        </nav>
+    </div>
+</header>
+  <div class="hero-container">
+  <section class="hero-content">  
+    <h2>Adelantamos tu dinero, para que sigas produciendo</h2>
+    <h2>FinAgro</h2>
+    <h3>Empresa de Factoraje Financiero Agrícola</h3>
+    <p class="location">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#2E7D32"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+      </svg>
+      <span>Chiapas, México</span>
+    </p>        
+  </section>
+</div>
+<main>
+        <!-- SECCIÓN 1: Título -->
+    <div class="seccion-titulo">
+        <h2>Catálogo</h2>
+    </div>
+
+    <!-- SECCIÓN 2: Línea divisora -->
+    <div class="seccion-linea">
+        <span class="linea-azul"></span>
+    </div>
+
+    <div class="contenedor-tarjetas">
+    <!-- Tarjeta 1: Servicios -->
+    <a href="/services.html" class="tarjeta">
+        <div class="tarjeta-imagen">
+            <img src="img/servicios.jpg" alt="Servicios de Factoraje">
+        </div>
+        <div class="tarjeta-texto">
+            <h3>Servicios</h3>
+            <p>Soluciones financieras adaptadas a tus necesidades agrícolas</p>
+        </div>
+    </a>
+
+    <!-- Tarjeta 2: Cómo Funciona -->
+    <a href="/function.html" class="tarjeta">
+        <div class="tarjeta-imagen">
+            <img src="img/funciona.jpg" alt="Proceso de Factoraje">
+        </div>
+        <div class="tarjeta-texto">
+            <h3>Cómo Funciona</h3>
+            <p>Conoce nuestro sencillo proceso paso a paso</p>
+        </div>
+    </a>
+
+    <!-- Tarjeta 3: Preguntas Frecuentes -->
+    <a href="/question.html" class="tarjeta">
+        <div class="tarjeta-imagen">
+            <img src="img/conta.jpg" alt="Preguntas Frecuentes">
+        </div>
+        <div class="tarjeta-texto">
+            <h3>Preguntas Frecuentes</h3>
+            <p>Resolvemos tus dudas sobre el factoraje agrícola</p>
+        </div>
+    </a>
+</div>
+
+</main>
+
+<!-- Sección Acerca de Nosotros - Diseño 2 columnas -->
+<div class="seccion-acerca">
+    <div class="acerca-contenido">
+        <div class="acerca-grid">
+            <div class="acerca-texto">
+                <h2>Acerca de Nosotros</h2>
+                <p>
+                    FinAgro nació con el compromiso de apoyar a los pequeños productores agrícolas 
+                    que enfrentan desafíos para acceder a financiamiento tradicional. Especializados en 
+                    cultivos como café, cacao, plátano y caña de azúcar.
+                </p>
+                <div class="acerca-destacado">
+                    <p>
+                        Facilitamos liquidez inmediata a productores de Chiapas que venden 
+                        a crédito a grandes compradores, ayudándoles a mantener sus operaciones sin 
+                        esperar meses por el pago.
+                    </p>
+                </div>
+                <a href="/about.html" class="boton-verde">Conoce más</a>
+            </div>
+            <div class="acerca-imagen">
+                <img src="img/nosotros.jpg" alt="Productor agrícola en Chiapas" class="imagen-destacada">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="site-footer">
+    <div class="footer-container">
+        <!-- Bloque de derechos -->
+        <div class="footer-block">
+            <img src="img/logo-footer.jpg" alt="FinAgro" class="footer-logo">
+            <p class="copyright">© 2025 FinAgro Chiapas. Todos los derechos reservados.</p>
+        </div>
+        
+        <!-- Bloque de contacto -->
+        <div class="footer-block">
+            <h4>Contacto</h4>
+            <div class="contact-info">
+                <a href="mailto:contacto@finagro.com" class="contact-link">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <path d="M22 6l-10 7L2 6"/>
+                    </svg>
+                    contacto@finagro.com
+                </a>
+                <a href="tel:+521234567890" class="contact-link">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                    </svg>
+                    +52 96 24 83 42 08
+                </a>
+            </div>
+        </div>
+        
+        <!-- Bloque de redes sociales -->
+        <div class="footer-block">
+            <h4>Síguenos</h4>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                    </svg>
+                </a>
+                <a href="+52 96 24 83 42 08" aria-label="WhatsApp">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Línea inferior -->
+    <div class="footer-bottom">
+        <p>Chiapas, México | Empresa de Factoraje Financiero Agrícola</p>
+    </div>
+</footer>
+    
+</body>
+</html>
