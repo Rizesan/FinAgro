@@ -1,19 +1,29 @@
 <h1>FinAgro</h1>
 
 
-Landing page desarrollada para una iniciativa de factoraje financiero agrícola.
+## Arquitectura
 
-Tecnologías
-HTML5
-CSS3
-JavaScript
-Git
-Características
-Diseño responsive.
-Navegación intuitiva.
-Sección de preguntas frecuentes.
-Efectos visuales e interacciones CSS.
-Optimización para dispositivos móviles.
+- Aplicación web multipágina desarrollada con HTML, CSS y JavaScript.
+- Estructura modular mediante páginas independientes para Inicio, Servicios, FAQ y Nosotros.
+- Componentes reutilizados para navegación y footer.
+- Diseño responsive adaptable a dispositivos móviles y escritorio.
+- Animaciones basadas en IntersectionObserver para mejorar la experiencia de usuario.
+
+## Problemas resueltos
+
+- Implementación de navegación adaptable para diferentes tamaños de pantalla.
+- Organización de contenido financiero complejo en una interfaz sencilla.
+- Optimización de experiencia móvil mediante diseño responsive.
+- Desarrollo de secciones interactivas sin uso de frameworks externos.
+- Reutilización de componentes para facilitar mantenimiento del proyecto.
+
+## Tecnologías
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
 
 
 ## Capturas
@@ -21,6 +31,9 @@ Optimización para dispositivos móviles.
 ### Inicio
 
 ![Inicio](assets/Inicio.png)
+
+### Demo
+https://rizesan.github.io/FinAgro/
 
 ### Servicios
 
@@ -42,5 +55,4 @@ Optimización para dispositivos móviles.
 - Implementación de efectos hover y navegación.
 - Desarrollo de interfaces enfocadas en experiencia de usuario.
 
-### Link
-https://rizesan.github.io/FinAgro/
+
